@@ -1,0 +1,75 @@
+object fMain: TfMain
+  Left = 264
+  Height = 240
+  Top = 162
+  Width = 320
+  Caption = 'fMain'
+  Menu = MainMenu1
+  LCLVersion = '1.4.4.0'
+  WindowState = wsMaximized
+  object MainMenu1: TMainMenu
+    left = 117
+    top = 86
+    object MenuBatch1: TMenuItem
+      Caption = 'Latihan 1-5'
+      object menuLatihan1: TMenuItem
+        Caption = '01. Hitung Umur'
+        OnClick = menuLatihan1Click
+      end
+      object menuLatihan2: TMenuItem
+        Caption = '02. Selisih Hari'
+        OnClick = menuLatihan2Click
+      end
+      object menuLatihan3: TMenuItem
+        Caption = '03. Hitung Bangun'
+        OnClick = menuLatihan3Click
+      end
+      object menuLatihan4: TMenuItem
+        Caption = '04. Login'
+      end
+      object menuLatihan5: TMenuItem
+        Caption = '05. Kalender'
+      end
+    end
+    object MenuBatch2: TMenuItem
+      Caption = 'Latihan 5-10'
+      object menuLatihan6: TMenuItem
+        Caption = '06. Timmer'
+      end
+      object menuLatihan7: TMenuItem
+        Caption = '07. Kalkulator'
+      end
+      object menuLatihan8: TMenuItem
+        Caption = '08. RB Jurusan'
+      end
+      object menuLatihan9: TMenuItem
+        Caption = '09. RB Pilihan'
+      end
+      object menuLatihan10: TMenuItem
+        Caption = '10. Harga Pakaian'
+      end
+    end
+    object MenuBatch3: TMenuItem
+      Caption = 'Latihan 11-15'
+      object menuLatihan11: TMenuItem
+        Caption = '11. Hitung Tgl'
+      end
+      object menuLatihan12: TMenuItem
+        Caption = '12. Penginapan'
+      end
+      object menuLatihan13: TMenuItem
+        Caption = '13. Konversi Tgl'
+      end
+      object menuLatihan14: TMenuItem
+        Caption = '14. Perulangan'
+      end
+      object menuLatihan15: TMenuItem
+        Caption = '15. Grade Nilai'
+      end
+    end
+    object MenuExit: TMenuItem
+      Caption = 'Exit'
+      OnClick = MenuExitClick
+    end
+  end
+end

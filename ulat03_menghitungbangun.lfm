@@ -1,0 +1,109 @@
+object fLat03: TfLat03
+  Left = 270
+  Height = 239
+  Top = 237
+  Width = 345
+  Caption = 'Latihan 03 - Menghitung Bangun Datar'
+  ClientHeight = 239
+  ClientWidth = 345
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  LCLVersion = '1.4.4.0'
+  object Label1: TLabel
+    Left = 56
+    Height = 20
+    Top = 24
+    Width = 242
+    Caption = 'Menghitung Persegi Panjang'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Century Schoolbook'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 40
+    Height = 15
+    Top = 57
+    Width = 100
+    Caption = 'Masukkan Panjang'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 40
+    Height = 15
+    Top = 88
+    Width = 86
+    Caption = 'Masukkan Lebar'
+    ParentColor = False
+  end
+  object eb_panjang: TEdit
+    Left = 168
+    Height = 23
+    Top = 56
+    Width = 152
+    TabOrder = 0
+    Text = 'eb_panjang'
+  end
+  object eb_lebar: TEdit
+    Left = 168
+    Height = 23
+    Top = 88
+    Width = 152
+    TabOrder = 1
+    Text = 'eb_lebar'
+  end
+  object btn_hitung: TButton
+    Left = 184
+    Height = 25
+    Top = 136
+    Width = 75
+    Caption = 'Hitung'
+    OnClick = btn_hitungClick
+    TabOrder = 2
+  end
+  object Label4: TLabel
+    Left = 40
+    Height = 15
+    Top = 179
+    Width = 39
+    Caption = 'Keliling'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 40
+    Height = 15
+    Top = 207
+    Width = 24
+    Caption = 'Luas'
+    ParentColor = False
+  end
+  object eb_keliling: TEdit
+    Left = 168
+    Height = 23
+    Top = 179
+    Width = 152
+    TabOrder = 3
+    Text = 'eb_keliling'
+  end
+  object eb_luas: TEdit
+    Left = 168
+    Height = 23
+    Top = 207
+    Width = 152
+    TabOrder = 4
+    Text = 'eb_luas'
+  end
+  object btn_reset: TButton
+    Left = 88
+    Height = 25
+    Top = 136
+    Width = 75
+    Caption = 'Reset'
+    OnClick = btn_resetClick
+    TabOrder = 5
+  end
+end

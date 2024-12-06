@@ -1,0 +1,69 @@
+unit UmenghitungUmur;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,
+  DateUtils,
+  ExtCtrls;
+
+type
+
+  { TForm1 }
+
+  TForm1 = class(TForm)
+    btn_submit: TButton;
+    eb_address: TEdit;
+    eb_age: TEdit;
+    eb_name: TEdit;
+    eb_tlp: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Laddress: TLabel;
+    Lage: TLabel;
+    Lname: TLabel;
+    Ltlp: TLabel;
+    Panel1: TPanel;
+    procedure btn_submitClick(Sender: TObject);
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.lfm}
+
+{ TForm1 }
+
+procedure TForm1.btn_submitClick(Sender: TObject);
+var
+  //Deklarasi Variabel tahun sekarang:
+  birthYear, currentYear: Integer;
+begin
+  Lname.caption := eb_name.text;
+  Laddress.caption := eb_address.text;
+  Ltlp.caption := eb_tlp.text;
+
+  //Start calculate age:
+  birthYear := StrToInt(eb_age.text);
+  currentYear := YearOf(Now);
+    // Sesuaikan tanggal lahir berdasarkan bulan dan tahun
+    //if (MonthOf(Now) < 1) or ((MonthOf(Now) = 1) and (DayOf(Now) < 1)) then
+    //  Lage.caption := IntToStr(currentYear - birthYear - 1)
+    //else
+  Lage.caption := IntToStr(currentYear - birthYear);
+end;
+
+end.
+
