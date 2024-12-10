@@ -1,0 +1,123 @@
+object fGradeNilai: TfGradeNilai
+  Left = 276
+  Height = 398
+  Top = 209
+  Width = 315
+  Caption = 'fGradeNilai'
+  ClientHeight = 398
+  ClientWidth = 315
+  OnCreate = FormCreate
+  LCLVersion = '1.4.4.0'
+  object Label1: TLabel
+    Left = 80
+    Height = 19
+    Top = 16
+    Width = 159
+    Caption = 'Menghitung Grade Nilai'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Calisto MT'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+  object btnProcess: TButton
+    Left = 24
+    Height = 25
+    Top = 256
+    Width = 90
+    Caption = 'Proses'
+    OnClick = btnProcessClick
+    TabOrder = 0
+  end
+  object PanelInput: TScrollBox
+    Left = 24
+    Height = 200
+    Top = 48
+    Width = 270
+    HorzScrollBar.Page = 246
+    VertScrollBar.Page = 34
+    ClientHeight = 196
+    ClientWidth = 266
+    TabOrder = 1
+    object Label2: TLabel
+      Left = 10
+      Height = 15
+      Top = 10
+      Width = 55
+      Caption = 'Input Nilai'
+      ParentColor = False
+    end
+    object ebNilai: TEdit
+      Left = 86
+      Height = 23
+      Top = 10
+      Width = 122
+      TabOrder = 0
+      Text = 'ebNilai'
+    end
+    object btnAdd: TButton
+      Left = 208
+      Height = 25
+      Top = 9
+      Width = 38
+      Caption = 'Add'
+      OnClick = btnAddClick
+      TabOrder = 1
+    end
+  end
+  object ebNilaiAkhir: TEdit
+    Left = 112
+    Height = 23
+    Top = 288
+    Width = 176
+    TabOrder = 2
+    Text = 'ebNilaiAkhir'
+  end
+  object ebGradeNilai: TEdit
+    Left = 112
+    Height = 23
+    Top = 320
+    Width = 176
+    TabOrder = 3
+    Text = 'ebGradeNilai'
+  end
+  object Label3: TLabel
+    Left = 32
+    Height = 15
+    Top = 288
+    Width = 55
+    Caption = 'Nilai Akhir'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 32
+    Height = 15
+    Top = 320
+    Width = 58
+    Caption = 'Grade Nilai'
+    ParentColor = False
+  end
+  object btnClose: TBitBtn
+    Left = 112
+    Height = 28
+    Top = 352
+    Width = 90
+    DefaultCaption = True
+    Kind = bkClose
+    ModalResult = 11
+    OnClick = btnCloseClick
+    TabOrder = 4
+  end
+  object btnClear: TButton
+    Left = 204
+    Height = 25
+    Top = 256
+    Width = 90
+    Caption = 'Clear'
+    OnClick = btnClearClick
+    TabOrder = 5
+  end
+end

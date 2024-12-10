@@ -1,0 +1,143 @@
+object fLat11_tanggal: TfLat11_tanggal
+  Left = 257
+  Height = 327
+  Top = 203
+  Width = 335
+  Caption = 'Latihan 11 - Menghitung Tanggal'
+  ClientHeight = 327
+  ClientWidth = 335
+  OnCreate = FormCreate
+  LCLVersion = '1.4.4.0'
+  object Label1: TLabel
+    Left = 112
+    Height = 15
+    Top = 48
+    Width = 41
+    Caption = 'Tanggal'
+    ParentColor = False
+  end
+  object btnhasil: TButton
+    Left = 208
+    Height = 25
+    Top = 78
+    Width = 46
+    Caption = '='
+    OnClick = btnhasilClick
+    TabOrder = 0
+  end
+  object edhari: TEdit
+    Left = 112
+    Height = 23
+    Top = 112
+    Width = 96
+    TabOrder = 1
+  end
+  object edbulan: TEdit
+    Left = 112
+    Height = 23
+    Top = 152
+    Width = 96
+    TabOrder = 2
+  end
+  object edtahun: TEdit
+    Left = 112
+    Height = 23
+    Top = 192
+    Width = 96
+    TabOrder = 3
+  end
+  object edjam: TEdit
+    Left = 136
+    Height = 23
+    Top = 248
+    Width = 32
+    TabOrder = 4
+  end
+  object btntambah: TButton
+    Left = 176
+    Height = 25
+    Top = 246
+    Width = 32
+    Caption = '+'
+    OnClick = btntambahClick
+    TabOrder = 5
+  end
+  object edhasil: TEdit
+    Left = 112
+    Height = 23
+    Top = 280
+    Width = 96
+    TabOrder = 6
+  end
+  object Label2: TLabel
+    Left = 56
+    Height = 15
+    Top = 112
+    Width = 22
+    Caption = 'Hari'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 56
+    Height = 15
+    Top = 152
+    Width = 30
+    Caption = 'Bulan'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 56
+    Height = 15
+    Top = 197
+    Width = 32
+    Caption = 'Tahun'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 56
+    Height = 15
+    Top = 246
+    Width = 64
+    Caption = 'TambahHari'
+    ParentColor = False
+  end
+  object DTP1: TDateEdit
+    Left = 185
+    Height = 23
+    Top = 48
+    Width = 103
+    CalendarDisplaySettings = [dsShowHeadings, dsShowDayNames]
+    OKCaption = 'OK'
+    CancelCaption = 'Cancel'
+    DateOrder = doNone
+    ButtonWidth = 23
+    NumGlyphs = 1
+    MaxLength = 0
+    TabOrder = 7
+  end
+  object btnback: TButton
+    Left = 245
+    Height = 25
+    Top = 288
+    Width = 75
+    Caption = 'Back'
+    OnClick = btnbackClick
+    TabOrder = 8
+  end
+  object Label6: TLabel
+    Left = 16
+    Height = 15
+    Top = 16
+    Width = 24
+    Caption = 'Hai, '
+    ParentColor = False
+  end
+  object L_name: TLabel
+    Left = 41
+    Height = 15
+    Top = 16
+    Width = 41
+    Caption = 'L_name'
+    ParentColor = False
+  end
+end

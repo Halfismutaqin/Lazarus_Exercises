@@ -1,0 +1,135 @@
+object fLat14_looping: TfLat14_looping
+  Left = 611
+  Height = 300
+  Top = 199
+  Width = 391
+  Anchors = []
+  BorderIcons = []
+  BorderStyle = bsNone
+  Caption = 'Latihan 14 - Looping'
+  ClientHeight = 300
+  ClientWidth = 391
+  FormStyle = fsMDIForm
+  OnCreate = FormCreate
+  OnShow = FormShow
+  PopupMode = pmAuto
+  LCLVersion = '1.4.4.0'
+  object Label1: TLabel
+    Left = 24
+    Height = 17
+    Top = 48
+    Width = 128
+    Caption = 'Perulangan Dari : '
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Baskerville Old Face'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbNilaiAwal: TLabel
+    Left = 152
+    Height = 17
+    Top = 48
+    Width = 70
+    Caption = 'lbNilaiAwal'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Baskerville Old Face'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbNilaiAkhir: TLabel
+    Left = 288
+    Height = 17
+    Top = 48
+    Width = 75
+    Caption = 'lbNilaiAkhir'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Baskerville Old Face'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 224
+    Height = 17
+    Top = 48
+    Width = 60
+    Caption = 'Sampai :'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Baskerville Old Face'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object memoGanjil: TMemo
+    Left = 8
+    Height = 220
+    Top = 72
+    Width = 120
+    Lines.Strings = (
+      'Bilangan Ganjil:'
+      '==========='
+    )
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+  end
+  object memoGenap: TMemo
+    Left = 136
+    Height = 220
+    Top = 72
+    Width = 120
+    Lines.Strings = (
+      'Bilangan Genap :'
+      '==========='
+    )
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+  end
+  object memoPrima: TMemo
+    Left = 264
+    Height = 220
+    Top = 72
+    Width = 120
+    Lines.Strings = (
+      'Bilangan Prima:'
+      '==========='
+    )
+    ScrollBars = ssAutoVertical
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    Left = 152
+    Height = 24
+    Top = 8
+    Width = 81
+    Caption = 'Perulangan'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Name = 'Bodoni MT Condensed'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object btnClose: TButton
+    Left = 304
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'Close'
+    OnClick = btnCloseClick
+    TabOrder = 3
+  end
+end

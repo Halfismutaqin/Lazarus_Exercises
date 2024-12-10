@@ -1,0 +1,31 @@
+object fLat06: TfLat06
+  Left = 525
+  Height = 240
+  Top = 211
+  Width = 320
+  BorderIcons = [biSystemMenu]
+  Caption = 'Latihan 06 - Timmer'
+  ClientHeight = 240
+  ClientWidth = 320
+  Position = poDesktopCenter
+  LCLVersion = '1.4.4.0'
+  object Ltimmer: TLabel
+    Left = 128
+    Height = 19
+    Top = 96
+    Width = 49
+    Caption = 'Timmer'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Bernard MT Condensed'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    left = 272
+    top = 16
+  end
+end

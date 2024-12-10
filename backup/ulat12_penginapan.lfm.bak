@@ -1,0 +1,217 @@
+object fLat12: TfLat12
+  Left = 264
+  Height = 367
+  Top = 162
+  Width = 410
+  BorderIcons = [biSystemMenu]
+  Caption = 'Latihan 12 - Reservsi Penginapan'
+  ClientHeight = 367
+  ClientWidth = 410
+  Color = 16515039
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '1.4.4.0'
+  object Label1: TLabel
+    Left = 120
+    Height = 25
+    Top = 24
+    Width = 158
+    Caption = 'Reservasi Hotel'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Elephant'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 40
+    Height = 16
+    Top = 72
+    Width = 64
+    Caption = 'Tipe Kamar'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -12
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 40
+    Height = 16
+    Top = 112
+    Width = 74
+    Caption = 'Harga Kamar'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -12
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 40
+    Height = 16
+    Top = 152
+    Width = 90
+    Caption = 'Lama Menginap'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -12
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 40
+    Height = 16
+    Top = 248
+    Width = 41
+    Caption = 'Jumlah'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -12
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 40
+    Height = 16
+    Top = 291
+    Width = 105
+    Caption = 'Keterangan Diskon'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -12
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 40
+    Height = 16
+    Top = 326
+    Width = 62
+    Caption = 'Total Bayar'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -12
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object btnHitung: TButton
+    Left = 176
+    Height = 25
+    Top = 192
+    Width = 80
+    Caption = 'Hitung'
+    OnClick = btnHitungClick
+    TabOrder = 0
+  end
+  object cbTipe: TComboBox
+    Left = 128
+    Height = 23
+    Top = 72
+    Width = 128
+    ItemHeight = 15
+    Items.Strings = (
+      'Reguler'
+      'Delux'
+      'King'
+      'Super'
+    )
+    OnChange = cbTipeChange
+    TabOrder = 1
+    Text = 'Pilih'
+  end
+  object ebHarga: TEdit
+    Cursor = crNo
+    Left = 128
+    Height = 23
+    Top = 112
+    Width = 128
+    Color = 14155519
+    ReadOnly = True
+    TabOrder = 2
+  end
+  object ebLama: TEdit
+    Left = 176
+    Height = 23
+    Top = 152
+    Width = 80
+    TabOrder = 3
+  end
+  object Label8: TLabel
+    Left = 272
+    Height = 30
+    Top = 248
+    Width = 101
+    Caption = 'Diskon 10%'#13#10'Pembelian>=1 juta'
+    ParentColor = False
+  end
+  object ebJml: TEdit
+    Left = 128
+    Height = 23
+    Top = 248
+    Width = 128
+    Color = 14155519
+    ReadOnly = True
+    TabOrder = 4
+  end
+  object ebKetDiskon: TEdit
+    Left = 176
+    Height = 23
+    Top = 288
+    Width = 80
+    Color = 14155519
+    ReadOnly = True
+    TabOrder = 5
+  end
+  object ebTotal: TEdit
+    Left = 176
+    Height = 23
+    Top = 326
+    Width = 80
+    Color = 14155519
+    ReadOnly = True
+    TabOrder = 6
+  end
+  object btnSelesai: TButton
+    Left = 296
+    Height = 25
+    Top = 326
+    Width = 75
+    Caption = 'Selesai'
+    OnClick = btnSelesaiClick
+    TabOrder = 7
+  end
+  object ebDiskon: TEdit
+    Left = 272
+    Height = 23
+    Top = 288
+    Width = 101
+    Color = 14155519
+    ReadOnly = True
+    TabOrder = 8
+  end
+  object Label9: TLabel
+    Left = 264
+    Height = 15
+    Top = 153
+    Width = 30
+    Caption = '(Hari)'
+    ParentColor = False
+  end
+end

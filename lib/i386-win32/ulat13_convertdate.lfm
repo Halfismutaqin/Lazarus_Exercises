@@ -1,0 +1,355 @@
+object fLat13: TfLat13
+  Left = 252
+  Height = 361
+  Top = 157
+  Width = 780
+  BorderIcons = [biSystemMenu]
+  Caption = 'Latihan 13 - Convert Tanggal'
+  ClientHeight = 361
+  ClientWidth = 780
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '1.4.4.0'
+  object GroupBox1: TGroupBox
+    Left = 16
+    Height = 206
+    Top = 48
+    Width = 384
+    Caption = 'TAMBAH HARI'
+    ClientHeight = 186
+    ClientWidth = 380
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 9
+      Height = 15
+      Top = 19
+      Width = 72
+      Caption = 'Input Tanggal'
+      ParentColor = False
+    end
+    object Label2: TLabel
+      Left = 8
+      Height = 15
+      Top = 56
+      Width = 67
+      Caption = 'Tambah Hari'
+      ParentColor = False
+    end
+    object Label3: TLabel
+      Left = 9
+      Height = 15
+      Top = 87
+      Width = 75
+      Caption = 'Tambah Bulan'
+      ParentColor = False
+    end
+    object Label4: TLabel
+      Left = 8
+      Height = 15
+      Top = 118
+      Width = 77
+      Caption = 'Tambah Tahun'
+      ParentColor = False
+    end
+    object DTP1: TDateEdit
+      Left = 136
+      Height = 23
+      Top = 11
+      Width = 103
+      CalendarDisplaySettings = [dsShowHeadings, dsShowDayNames]
+      OKCaption = 'OK'
+      CancelCaption = 'Cancel'
+      DateOrder = doNone
+      ButtonWidth = 23
+      NumGlyphs = 1
+      MaxLength = 0
+      TabOrder = 0
+    end
+    object ebTambahHari: TEdit
+      Left = 136
+      Height = 23
+      Top = 48
+      Width = 80
+      TabOrder = 1
+      Text = 'ebTambahHari'
+    end
+    object ebTambahBulan: TEdit
+      Left = 136
+      Height = 23
+      Top = 79
+      Width = 80
+      TabOrder = 2
+      Text = 'ebTambahBulan'
+    end
+    object ebTambahTahun: TEdit
+      Left = 137
+      Height = 23
+      Top = 110
+      Width = 79
+      TabOrder = 3
+      Text = 'ebTambahTahun'
+    end
+    object ebHasil: TEdit
+      Left = 256
+      Height = 23
+      Top = 144
+      Width = 97
+      TabOrder = 4
+      Text = 'ebHasil'
+    end
+    object Label5: TLabel
+      Left = 256
+      Height = 15
+      Top = 16
+      Width = 26
+      Caption = 'Hasil'
+      ParentColor = False
+    end
+    object btnTambah1: TButton
+      Left = 216
+      Height = 25
+      Top = 48
+      Width = 25
+      Caption = '+'
+      OnClick = btnTambah1Click
+      TabOrder = 5
+    end
+    object btnTambah2: TButton
+      Left = 216
+      Height = 25
+      Top = 79
+      Width = 26
+      Caption = '+'
+      OnClick = btnTambah2Click
+      TabOrder = 6
+    end
+    object btnTambah3: TButton
+      Left = 216
+      Height = 25
+      Top = 110
+      Width = 26
+      Caption = '+'
+      OnClick = btnTambah3Click
+      TabOrder = 7
+    end
+    object ebHasilHari: TEdit
+      Left = 256
+      Height = 23
+      Top = 48
+      Width = 99
+      TabOrder = 8
+      Text = 'ebHasilHari'
+    end
+    object ebHasilBulan: TEdit
+      Left = 256
+      Height = 23
+      Top = 81
+      Width = 99
+      TabOrder = 9
+      Text = 'ebHasilBulan'
+    end
+    object ebHasilTahun: TEdit
+      Left = 256
+      Height = 23
+      Top = 110
+      Width = 99
+      TabOrder = 10
+      Text = 'ebHasilTahun'
+    end
+    object Label15: TLabel
+      Left = 168
+      Height = 15
+      Top = 149
+      Width = 71
+      Caption = 'Hasil Tambah'
+      ParentColor = False
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 408
+    Height = 288
+    Top = 48
+    Width = 354
+    Caption = 'CONVERT TANGGAL'
+    ClientHeight = 268
+    ClientWidth = 350
+    TabOrder = 1
+    object DTP2: TDateEdit
+      Left = 104
+      Height = 23
+      Top = 8
+      Width = 103
+      CalendarDisplaySettings = [dsShowHeadings, dsShowDayNames]
+      OKCaption = 'OK'
+      CancelCaption = 'Cancel'
+      DateOrder = doNone
+      ButtonWidth = 23
+      NumGlyphs = 1
+      MaxLength = 0
+      TabOrder = 0
+    end
+    object btnProses: TButton
+      Left = 224
+      Height = 25
+      Top = 8
+      Width = 112
+      Caption = 'Proses'
+      OnClick = btnProsesClick
+      TabOrder = 1
+    end
+    object Label7: TLabel
+      Left = 56
+      Height = 15
+      Top = 48
+      Width = 22
+      Caption = 'Hari'
+      ParentColor = False
+    end
+    object ebHasilHari2: TEdit
+      Left = 104
+      Height = 23
+      Top = 48
+      Width = 103
+      TabOrder = 2
+      Text = 'ebHasilHari2'
+    end
+    object Label8: TLabel
+      Left = 56
+      Height = 15
+      Top = 80
+      Width = 30
+      Caption = 'Bulan'
+      ParentColor = False
+    end
+    object ebHasilBulan2: TEdit
+      Left = 104
+      Height = 23
+      Top = 80
+      Width = 103
+      TabOrder = 3
+      Text = 'ebHasilBulan2'
+    end
+    object Label9: TLabel
+      Left = 54
+      Height = 15
+      Top = 112
+      Width = 32
+      Caption = 'Tahun'
+      ParentColor = False
+    end
+    object ebHasilTahun2: TEdit
+      Left = 104
+      Height = 23
+      Top = 112
+      Width = 103
+      TabOrder = 4
+      Text = 'ebHasilTahun2'
+    end
+    object Label10: TLabel
+      Left = 16
+      Height = 15
+      Top = 152
+      Width = 47
+      Caption = 'Format 1'
+      ParentColor = False
+    end
+    object Label11: TLabel
+      Left = 16
+      Height = 15
+      Top = 208
+      Width = 47
+      Caption = 'Format 2'
+      ParentColor = False
+    end
+    object Label12: TLabel
+      Left = 200
+      Height = 15
+      Top = 152
+      Width = 47
+      Caption = 'Format 3'
+      ParentColor = False
+    end
+    object Label13: TLabel
+      Left = 200
+      Height = 15
+      Top = 208
+      Width = 47
+      Caption = 'Format 4'
+      ParentColor = False
+    end
+    object ebFormat1: TEdit
+      Left = 16
+      Height = 23
+      Top = 177
+      Width = 152
+      TabOrder = 5
+      Text = 'ebFormat1'
+    end
+    object ebFormat2: TEdit
+      Left = 16
+      Height = 23
+      Top = 232
+      Width = 150
+      TabOrder = 6
+      Text = 'ebFormat2'
+    end
+    object ebFormat3: TEdit
+      Left = 200
+      Height = 23
+      Top = 176
+      Width = 136
+      TabOrder = 7
+      Text = 'ebFormat3'
+    end
+    object ebFormat4: TEdit
+      Left = 200
+      Height = 23
+      Top = 232
+      Width = 136
+      TabOrder = 8
+      Text = 'ebFormat4'
+    end
+    object Label6: TLabel
+      Left = 16
+      Height = 15
+      Top = 11
+      Width = 72
+      Caption = 'Input Tanggal'
+      ParentColor = False
+    end
+  end
+  object btnClose: TButton
+    Left = 216
+    Height = 25
+    Top = 280
+    Width = 104
+    Caption = 'Close'
+    OnClick = btnCloseClick
+    TabOrder = 2
+  end
+  object Label14: TLabel
+    Left = 243
+    Height = 24
+    Top = 11
+    Width = 105
+    Caption = 'Konversi Tanggal'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Agency FB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+  object btnReset: TButton
+    Left = 88
+    Height = 25
+    Top = 280
+    Width = 104
+    Caption = 'Reset'
+    OnClick = btnResetClick
+    TabOrder = 3
+  end
+end
