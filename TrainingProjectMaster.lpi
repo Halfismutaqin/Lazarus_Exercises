@@ -33,7 +33,7 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="5">
+    <Units Count="19">
       <Unit0>
         <Filename Value="TrainingProjectMaster.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -70,6 +70,118 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Ulat03_menghitungBangun"/>
       </Unit4>
+      <Unit5>
+        <Filename Value="ulat04_login.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fLat04"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Ulat04_login"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="ulat05_kalender.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fLat05"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Ulat05_kalender"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="ulat06_timer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fLat06"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Ulat06_timer"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="ulat07_calculator.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fLat07"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Ulat07_calculator"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="ulat08_rbjurusan.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fLat08"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Ulat08_rbJurusan"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="ulat09_rbpilih.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fLat09"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Ulat09_rbPilih"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="ulat10_harga.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fLat10"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Ulat10_harga"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="ulat11_hitungtanggal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fLat11_tanggal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Ulat11_hitungTanggal"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="ulat11_maintanggal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fLat11_main"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Ulat11_mainTanggal"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="ulat12_penginapan.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fLat12"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Ulat12_penginapan"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="ulat13_convertdate.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fLat13"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Ulat13_convertDate"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="ulat14_looping.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fLat14_looping"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Ulat14_looping"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="ulat14_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fLat14_main"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Ulat14_main"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="ulat15_gradenilai.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fLat15"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Ulat15_gradeNilai"/>
+      </Unit18>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
