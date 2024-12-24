@@ -191,6 +191,21 @@ object fMain: TfMain
         OnClick = menuLatihan15Click
       end
     end
+    object menuManageInvoice: TMenuItem
+      Caption = 'Manage Invoice'
+      OnClick = menuManageInvoiceClick
+    end
+    object menuReport: TMenuItem
+      Caption = 'Report'
+      object menuReportMaster: TMenuItem
+        Caption = 'Report Master'
+        OnClick = menuReportMasterClick
+      end
+      object menuReportInvoice: TMenuItem
+        Caption = 'Report Invoice'
+        OnClick = menuReportInvoiceClick
+      end
+    end
     object MenuExit: TMenuItem
       Caption = 'Exit'
       Bitmap.Data = {

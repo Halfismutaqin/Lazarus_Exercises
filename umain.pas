@@ -17,6 +17,10 @@ type
     MenuBatch2: TMenuItem;
     MenuBatch3: TMenuItem;
     MenuExit: TMenuItem;
+    menuReportMaster: TMenuItem;
+    menuReportInvoice: TMenuItem;
+    menuReport: TMenuItem;
+    menuManageInvoice: TMenuItem;
     menuLatihan11: TMenuItem;
     menuLatihan12: TMenuItem;
     menuLatihan13: TMenuItem;
@@ -34,6 +38,7 @@ type
     menuLatihan5: TMenuItem;
     procedure FormCreate(Sender: TObject);
     procedure MenuExitClick(Sender: TObject);
+    procedure menuManageInvoiceClick(Sender: TObject);
     procedure menuLatihan10Click(Sender: TObject);
     procedure menuLatihan11Click(Sender: TObject);
     procedure menuLatihan12Click(Sender: TObject);
@@ -49,6 +54,8 @@ type
     procedure menuLatihan7Click(Sender: TObject);
     procedure menuLatihan8Click(Sender: TObject);
     procedure menuLatihan9Click(Sender: TObject);
+    procedure menuReportInvoiceClick(Sender: TObject);
+    procedure menuReportMasterClick(Sender: TObject);
   private
     { private declarations }
   public
@@ -63,7 +70,8 @@ implementation
 uses
   Ulat01_menghitungUmur, Ulat02_selisihTanggal, Ulat03_menghitungBangun, Ulat04_login, Ulat05_kalender,
   Ulat06_timer, Ulat07_calculator, Ulat08_rbJurusan, Ulat09_rbPilih, Ulat10_harga,
-  Ulat11_mainTanggal, Ulat12_penginapan, Ulat13_convertDate, Ulat14_main, Ulat15_gradeNilai;
+  Ulat11_mainTanggal, Ulat12_penginapan, Ulat13_convertDate, Ulat14_main, Ulat15_gradeNilai,
+  UmanageInvoice, UreportInvoice, UreportMaster;
 
 {$R *.lfm}
 
@@ -77,6 +85,11 @@ end;
 procedure TfMain.MenuExitClick(Sender: TObject);
 begin
   Application.Terminate;
+end;
+
+procedure TfMain.menuManageInvoiceClick(Sender: TObject);
+begin
+ fManageInvoice.ShowModal;
 end;
 
 procedure TfMain.menuLatihan10Click(Sender: TObject);
@@ -152,6 +165,16 @@ end;
 procedure TfMain.menuLatihan9Click(Sender: TObject);
 begin
   fLat09.ShowModal;
+end;
+
+procedure TfMain.menuReportInvoiceClick(Sender: TObject);
+begin
+  fReportInvoice.ShowModal;
+end;
+
+procedure TfMain.menuReportMasterClick(Sender: TObject);
+begin
+  fReportMaster.ShowModal;
 end;
 
 end.
