@@ -7,11 +7,13 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, Umain, Ulat01_menghitungUmur, Ulat02_selisihTanggal, Ulat03_menghitungBangun,
-  Ulat04_login, Ulat05_kalender, Ulat06_timer, Ulat07_calculator, Ulat08_rbJurusan,
-  Ulat09_rbPilih, Ulat10_harga, Ulat11_mainTanggal, Ulat11_hitungTanggal, Ulat12_penginapan,
-  Ulat13_convertDate, Ulat14_main, Ulat14_looping, Ulat15_gradeNilai
-  { you can add units after this };
+  Forms, datetimectrls, memdslaz, Umain, Ulat01_menghitungUmur,
+  Ulat02_selisihTanggal, Ulat03_menghitungBangun, Ulat04_login, Ulat05_kalender,
+  Ulat06_timer, Ulat07_calculator, Ulat08_rbJurusan, Ulat09_rbPilih,
+  Ulat10_harga, Ulat11_mainTanggal, Ulat11_hitungTanggal, Ulat12_penginapan,
+  Ulat13_convertDate, Ulat14_main, Ulat14_looping, Ulat15_gradeNilai,
+  UmanageInvoice, UmanageInvoice_add, UmodalCustomers, UmodalProduct,
+  UmanageInvoice_edit, UreportInvoice, UreportMaster;
 
 {$R *.res}
 
@@ -36,6 +38,13 @@ begin
   Application.CreateForm(TfLat14_main, fLat14_main);
   Application.CreateForm(TfLat14_looping, fLat14_looping);
   Application.CreateForm(TfLat15, fLat15);
+  Application.CreateForm(TfManageInvoice, fManageInvoice);
+  Application.CreateForm(TfManageInvoice_add, fManageInvoice_add);
+  Application.CreateForm(TfModalCustomers, fModalCustomers);
+  Application.CreateForm(TfModalProduct, fModalProduct);
+  Application.CreateForm(TfManageInvoice_edit, fManageInvoice_edit);
+  Application.CreateForm(TfReportInvoice, fReportInvoice);
+  Application.CreateForm(TfReportMaster, fReportMaster);
   Application.Run;
 end.
 

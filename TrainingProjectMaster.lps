@@ -4,13 +4,14 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="21">
+    <Units Count="30">
       <Unit0>
         <Filename Value="TrainingProjectMaster.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
-        <CursorPos X="17" Y="5"/>
-        <UsageCount Value="27"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="6"/>
+        <CursorPos X="33" Y="16"/>
+        <UsageCount Value="200"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -20,9 +21,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Umain"/>
-        <TopLine Value="95"/>
-        <CursorPos X="15" Y="103"/>
-        <UsageCount Value="27"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="156"/>
+        <CursorPos X="29" Y="172"/>
+        <UsageCount Value="200"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -36,7 +38,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="60"/>
         <CursorPos X="19" Y="84"/>
-        <UsageCount Value="27"/>
+        <UsageCount Value="200"/>
       </Unit2>
       <Unit3>
         <Filename Value="ulat02_selisihtanggal.pas"/>
@@ -48,7 +50,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="48"/>
         <CursorPos X="3" Y="64"/>
-        <UsageCount Value="27"/>
+        <UsageCount Value="200"/>
       </Unit3>
       <Unit4>
         <Filename Value="ulat03_menghitungbangun.pas"/>
@@ -60,7 +62,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="35"/>
         <CursorPos X="47" Y="39"/>
-        <UsageCount Value="27"/>
+        <UsageCount Value="200"/>
       </Unit4>
       <Unit5>
         <Filename Value="ulat04_login.pas"/>
@@ -72,7 +74,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="42"/>
         <CursorPos X="15" Y="3"/>
-        <UsageCount Value="27"/>
+        <UsageCount Value="200"/>
       </Unit5>
       <Unit6>
         <Filename Value="ulat05_kalender.pas"/>
@@ -84,26 +86,9 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="16"/>
         <CursorPos X="21"/>
-        <UsageCount Value="27"/>
+        <UsageCount Value="200"/>
       </Unit6>
       <Unit7>
-        <Filename Value="u01_menghitungumur.pas"/>
-        <HasResources Value="True"/>
-        <UnitName Value="U01_menghitungUmur"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="24" Y="3"/>
-        <UsageCount Value="19"/>
-      </Unit7>
-      <Unit8>
-        <Filename Value="u01_menghitungumur.lfm"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="19"/>
-        <DefaultSyntaxHighlighter Value="LFM"/>
-      </Unit8>
-      <Unit9>
         <Filename Value="ulat06_timer.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="fLat06"/>
@@ -112,9 +97,9 @@
         <UnitName Value="Ulat06_timer"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="19"/>
-        <UsageCount Value="27"/>
-      </Unit9>
-      <Unit10>
+        <UsageCount Value="200"/>
+      </Unit7>
+      <Unit8>
         <Filename Value="ulat07_calculator.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="fLat07"/>
@@ -124,9 +109,9 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="50"/>
         <CursorPos X="5" Y="86"/>
-        <UsageCount Value="26"/>
-      </Unit10>
-      <Unit11>
+        <UsageCount Value="200"/>
+      </Unit8>
+      <Unit9>
         <Filename Value="ulat08_rbjurusan.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="fLat08"/>
@@ -136,9 +121,9 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="85"/>
         <CursorPos X="49" Y="92"/>
-        <UsageCount Value="26"/>
-      </Unit11>
-      <Unit12>
+        <UsageCount Value="200"/>
+      </Unit9>
+      <Unit10>
         <Filename Value="ulat09_rbpilih.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="fLat09"/>
@@ -148,24 +133,21 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="28"/>
         <CursorPos X="3" Y="42"/>
-        <UsageCount Value="25"/>
-      </Unit12>
-      <Unit13>
+        <UsageCount Value="201"/>
+      </Unit10>
+      <Unit11>
         <Filename Value="ulat10_harga.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="fLat10"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Ulat10_harga"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="146"/>
-        <CursorPos X="83" Y="148"/>
-        <UsageCount Value="25"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
-      </Unit13>
-      <Unit14>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="163"/>
+        <CursorPos X="3" Y="179"/>
+        <UsageCount Value="201"/>
+      </Unit11>
+      <Unit12>
         <Filename Value="ulat11_hitungtanggal.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="fLat11_tanggal"/>
@@ -175,22 +157,20 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="70"/>
         <CursorPos X="3" Y="91"/>
-        <UsageCount Value="25"/>
-      </Unit14>
-      <Unit15>
+        <UsageCount Value="201"/>
+      </Unit12>
+      <Unit13>
         <Filename Value="ulat11_maintanggal.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="fLat11_main"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Ulat11_mainTanggal"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="-1"/>
         <CursorPos Y="24"/>
-        <UsageCount Value="25"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
-      </Unit15>
-      <Unit16>
+        <UsageCount Value="201"/>
+      </Unit13>
+      <Unit14>
         <Filename Value="ulat12_penginapan.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="fLat12"/>
@@ -198,170 +178,301 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Ulat12_penginapan"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="45"/>
-        <CursorPos X="43" Y="61"/>
-        <UsageCount Value="23"/>
-      </Unit16>
-      <Unit17>
+        <TopLine Value="102"/>
+        <CursorPos X="30" Y="57"/>
+        <UsageCount Value="203"/>
+      </Unit14>
+      <Unit15>
         <Filename Value="ulat13_convertdate.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="fLat13"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Ulat13_convertDate"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="102"/>
         <CursorPos X="23" Y="112"/>
-        <UsageCount Value="22"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
-      </Unit17>
-      <Unit18>
+        <UsageCount Value="202"/>
+      </Unit15>
+      <Unit16>
         <Filename Value="ulat14_looping.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="fLat14_looping"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Ulat14_looping"/>
-        <EditorIndex Value="5"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="7"/>
         <CursorPos X="38" Y="48"/>
-        <UsageCount Value="22"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
-      </Unit18>
-      <Unit19>
+        <UsageCount Value="202"/>
+      </Unit16>
+      <Unit17>
         <Filename Value="ulat14_main.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="fLat14_main"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Ulat14_main"/>
-        <EditorIndex Value="7"/>
-        <TopLine Value="257"/>
-        <CursorPos X="47" Y="267"/>
-        <UsageCount Value="22"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
-      </Unit19>
-      <Unit20>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="84"/>
+        <CursorPos X="4" Y="87"/>
+        <UsageCount Value="202"/>
+      </Unit17>
+      <Unit18>
         <Filename Value="ulat15_gradenilai.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="fLat15"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Ulat15_gradeNilai"/>
-        <EditorIndex Value="6"/>
-        <CursorPos X="35" Y="5"/>
-        <UsageCount Value="21"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="149"/>
+        <CursorPos X="3" Y="168"/>
+        <UsageCount Value="201"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="umanageinvoice.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fManageInvoice"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UmanageInvoice"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="84"/>
+        <CursorPos X="3" Y="86"/>
+        <UsageCount Value="201"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="umanageinvoice_add.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fManageInvoice_add"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UmanageInvoice_add"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="157"/>
+        <CursorPos X="29" Y="125"/>
+        <UsageCount Value="201"/>
       </Unit20>
+      <Unit21>
+        <Filename Value="umodalcustomers.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fModalCustomers"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UmodalCustomers"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="51"/>
+        <CursorPos X="42" Y="59"/>
+        <UsageCount Value="200"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="umodalproduct.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fModalProduct"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UmodalProduct"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="31"/>
+        <CursorPos X="73" Y="46"/>
+        <UsageCount Value="198"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="umanageinvoice_edit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fManageInvoice_edit"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UmanageInvoice_edit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="115"/>
+        <CursorPos X="52" Y="129"/>
+        <UsageCount Value="171"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="ureportinvoice.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fReportInvoice"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UreportInvoice"/>
+        <CursorPos X="21" Y="23"/>
+        <UsageCount Value="156"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2722"/>
+        <CursorPos Y="2734"/>
+        <UsageCount Value="97"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="C:\lazarus\components\lazreport\source\lr_class.pas"/>
+        <UnitName Value="LR_Class"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="9792"/>
+        <CursorPos Y="9798"/>
+        <UsageCount Value="75"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="C:\lazarus\lcl\lresources.pp"/>
+        <UnitName Value="LResources"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="787"/>
+        <CursorPos Y="797"/>
+        <UsageCount Value="65"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="ulattestreport.pas"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UlatTestReport"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="53"/>
+        <CursorPos X="19" Y="61"/>
+        <UsageCount Value="20"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="ureportmaster.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fReportMaster"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UreportMaster"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="57"/>
+        <CursorPos X="15" Y="56"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit29>
     </Units>
-    <JumpHistory Count="26" HistoryIndex="25">
+    <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
-        <Filename Value="umain.pas"/>
-        <Caret Line="58" Column="52" TopLine="58"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="52" Column="53" TopLine="40"/>
       </Position1>
       <Position2>
-        <Filename Value="umain.pas"/>
-        <Caret Line="59" Column="68" TopLine="59"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="53" Column="53" TopLine="41"/>
       </Position2>
       <Position3>
-        <Filename Value="umain.pas"/>
-        <Caret Line="117" Column="19" TopLine="96"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="52" Column="53" TopLine="40"/>
       </Position3>
       <Position4>
-        <Filename Value="umain.pas"/>
-        <Caret Line="123" TopLine="102"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="51" Column="53" TopLine="39"/>
       </Position4>
       <Position5>
-        <Filename Value="umain.pas"/>
-        <Caret Line="78" Column="19" TopLine="64"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="50" Column="53" TopLine="38"/>
       </Position5>
       <Position6>
-        <Filename Value="umain.pas"/>
-        <Caret Line="79" Column="3" TopLine="77"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="53" Column="53" TopLine="41"/>
       </Position6>
       <Position7>
-        <Filename Value="umain.pas"/>
-        <Caret Line="62" Column="21" TopLine="79"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="57" Column="33" TopLine="41"/>
       </Position7>
       <Position8>
-        <Filename Value="umain.pas"/>
-        <Caret Line="63" Column="40" TopLine="54"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="56" Column="33" TopLine="40"/>
       </Position8>
       <Position9>
-        <Filename Value="ulat13_convertdate.pas"/>
-        <Caret Line="3" Column="24"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="55" Column="33" TopLine="39"/>
       </Position9>
       <Position10>
-        <Filename Value="umain.pas"/>
-        <Caret Line="64" Column="40" TopLine="64"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="54" Column="33" TopLine="38"/>
       </Position10>
       <Position11>
-        <Filename Value="ulat13_convertdate.pas"/>
-        <Caret Line="202" Column="3" TopLine="200"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="53" Column="33" TopLine="37"/>
       </Position11>
       <Position12>
-        <Filename Value="ulat13_convertdate.pas"/>
-        <Caret Line="147" Column="13" TopLine="145"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="54" Column="33" TopLine="38"/>
       </Position12>
       <Position13>
-        <Filename Value="ulat14_looping.pas"/>
-        <Caret Line="6" Column="18"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="55" Column="33" TopLine="39"/>
       </Position13>
       <Position14>
-        <Filename Value="ulat14_main.pas"/>
-        <Caret Line="29" Column="36" TopLine="23"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="56" Column="33" TopLine="40"/>
       </Position14>
       <Position15>
-        <Filename Value="umain.pas"/>
-        <Caret Line="65" Column="73" TopLine="54"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="57" Column="33" TopLine="41"/>
       </Position15>
       <Position16>
-        <Filename Value="ulat14_main.pas"/>
-        <Caret Line="87" Column="4" TopLine="84"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="78" Column="14" TopLine="57"/>
       </Position16>
       <Position17>
-        <Filename Value="ulat14_main.pas"/>
-        <Caret Line="59" Column="13" TopLine="37"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="9" Column="31"/>
       </Position17>
       <Position18>
-        <Filename Value="ulat14_looping.pas"/>
-        <Caret Line="58" Column="3" TopLine="37"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="75" Column="13" TopLine="53"/>
       </Position18>
       <Position19>
-        <Filename Value="ulat14_looping.pas"/>
-        <Caret Line="48" Column="34" TopLine="31"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="77" Column="23" TopLine="55"/>
       </Position19>
       <Position20>
-        <Filename Value="ulat14_main.pas"/>
-        <Caret Line="277" Column="14"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="91" Column="3" TopLine="70"/>
       </Position20>
       <Position21>
-        <Filename Value="ulat14_main.pas"/>
-        <Caret Line="68" Column="22" TopLine="61"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="90" Column="54" TopLine="76"/>
       </Position21>
       <Position22>
-        <Filename Value="ulat14_main.pas"/>
-        <Caret Line="212" Column="14" TopLine="197"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="122" Column="26" TopLine="101"/>
       </Position22>
       <Position23>
-        <Filename Value="ulat14_main.pas"/>
-        <Caret Line="122" Column="18" TopLine="119"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="117" Column="5" TopLine="55"/>
       </Position23>
       <Position24>
-        <Filename Value="umain.pas"/>
-        <Caret Line="103" Column="24" TopLine="101"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="123" Column="28" TopLine="103"/>
       </Position24>
       <Position25>
-        <Filename Value="ulat15_gradenilai.pas"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="122" Column="28" TopLine="102"/>
       </Position25>
       <Position26>
-        <Filename Value="umain.pas"/>
-        <Caret Line="114" Column="3" TopLine="112"/>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="87" Column="3" TopLine="76"/>
       </Position26>
+      <Position27>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="129" TopLine="110"/>
+      </Position27>
+      <Position28>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="150" Column="26" TopLine="126"/>
+      </Position28>
+      <Position29>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="80" Column="18" TopLine="67"/>
+      </Position29>
+      <Position30>
+        <Filename Value="ureportmaster.pas"/>
+        <Caret Line="57" Column="5" TopLine="40"/>
+      </Position30>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

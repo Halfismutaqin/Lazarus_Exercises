@@ -10,6 +10,12 @@
       <ResourceType Value="res"/>
       <UseXPManifest Value="True"/>
       <Icon Value="0"/>
+      <Resources Count="4">
+        <Resource_0 FileName="report\rptInvoice.lrf" Type="RCDATA" ResourceName="RPTINVOICE"/>
+        <Resource_1 FileName="report\rptPenjualanDetail.lrf" Type="RCDATA" ResourceName="RPTPENJUALANDETAIL"/>
+        <Resource_2 FileName="report\rptPenjualanRekap.lrf" Type="RCDATA" ResourceName="RPTPENJUALANREKAP"/>
+        <Resource_3 FileName="report\rptPenjualanRekapCopy.lrf" Type="RCDATA" ResourceName="RPTPENJUALANREKAPCOPY"/>
+      </Resources>
     </General>
     <i18n>
       <EnableI18N LFM="False"/>
@@ -28,12 +34,27 @@
         <FormatVersion Value="1"/>
       </local>
     </RunParams>
-    <RequiredPackages Count="1">
+    <RequiredPackages Count="6">
       <Item1>
-        <PackageName Value="LCL"/>
+        <PackageName Value="lazreport"/>
       </Item1>
+      <Item2>
+        <PackageName Value="MemDSLaz"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="DateTimeCtrls"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="SQLDBLaz"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="FCL"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="LCL"/>
+      </Item6>
     </RequiredPackages>
-    <Units Count="19">
+    <Units Count="26">
       <Unit0>
         <Filename Value="TrainingProjectMaster.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -182,6 +203,61 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Ulat15_gradeNilai"/>
       </Unit18>
+      <Unit19>
+        <Filename Value="umanageinvoice.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fManageInvoice"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UmanageInvoice"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="umanageinvoice_add.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fManageInvoice_add"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UmanageInvoice_add"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="umodalcustomers.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fModalCustomers"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UmodalCustomers"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="umodalproduct.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fModalProduct"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UmodalProduct"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="umanageinvoice_edit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fManageInvoice_edit"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UmanageInvoice_edit"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="ureportinvoice.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fReportInvoice"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UreportInvoice"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="ureportmaster.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fReportMaster"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UreportMaster"/>
+      </Unit25>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
